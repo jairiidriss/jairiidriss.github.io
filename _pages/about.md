@@ -16,7 +16,9 @@ I am Idriss JAIRI, a Ph.D. student in machine learning at the University of Lill
 
 Education
 ======
-Ph.D. in Machine Learning, University of Lille, Lille, 2022-Now
-M.S. in Computer Science and Technology, Southwest Petroleum University, Chengdu, 2019-2022
-B.S. in Computer Science, Faculty of Science, Agadir, 2018-2019
-DUT (Diplôme universitaire de technologie) in Computer Science, Higher School of Technology, Agadir, 2016-2018
+<ul>
+  <li>Ph.D. in Machine Learning, University of Lille, Lille, 2022-Now</li>
+  <li>M.S. in Computer Science and Technology, Southwest Petroleum University, Chengdu, 2019-2022</li>
+  <li>B.S. in Computer Science, Faculty of Science, Agadir, 2018-2019</li>
+  <li>DUT (Diplôme universitaire de technologie) in Computer Science, Higher School of Technology, Agadir, 2016-2018</li>
+</ul>
