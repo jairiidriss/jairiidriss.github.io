@@ -31,4 +31,16 @@ Skills
   <li>Frameworks/Systems: MVC, Django, Bootstrap, WordPress, VueJS</li>
 </ul>
 
+Grants and Awards
+======
+<ul>
+  <li>Sichuan Provincial Government Scholarship for Foreign Students, 2021-2022</li>
+  <li>Sichuan Provincial Government Scholarship for Foreign Students, 2020-2021</li>
+</ul>
+
+Teaching Activity
+======
+<ul>
+  <li>Machine Learning and Deep Learning - MASTER MIAS M2</li>
+</ul>
 
