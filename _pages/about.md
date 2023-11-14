@@ -22,3 +22,13 @@ Education
   <li>B.S. in Computer Science, Faculty of Science, Agadir, 2018-2019</li>
   <li>DUT (Diplôme universitaire de technologie) in Computer Science, Higher School of Technology, Agadir, 2016-2018</li>
 </ul>
+
+Skills
+======
+<ul>
+  <li>Areas of Expertise: Machine learning, Deep learning, Data visualization, Data preparation, Data Science, Statistics, Software engineering, and Problem-solving.</li>
+  <li>Programming Languages: C, C++, JavaScript, HTML/CSS, Python, Java, PHP, SQL, Latex.</li>
+  <li>Frameworks/Systems: MVC, Django, Bootstrap, WordPress, VueJS</li>
+</ul>
+
+
