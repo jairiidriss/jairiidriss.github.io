@@ -8,11 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-
-
-A short biography
-======
-I am IdrissZa JAIRI, a Ph.D. student in machine learning at the University of Lille. Having a background in software engineering and data science.
+I am Idriss JAIzzRI, a Ph.D. student in machine learning at the University of Lille. Having a background in software engineering and data science.
 
 Education
 ======
