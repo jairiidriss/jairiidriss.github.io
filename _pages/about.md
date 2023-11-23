@@ -23,24 +23,21 @@ Education
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2020-09 to 2022-06: Research Assistant
+  * Southwest Petroleum University
+  * Duties included: Exploring and Developing new techniques to evaluate the liquefaction of soil using machine learning techniques
+  * Supervisor: Dr. Yu FANG
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2019-02 to 2019-04: Internship - Web Developer
+  * Vala-orange
+  * Duties included: Developing web application and SEO
+
+* 2018-03 to 2018-06: Internship - Web Developer
+  * WOHLSTANDFURALLE SARL
+  * Duties included: Developing E-commerce web application
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 * Areas of Expertise: 
     * Machine learning
