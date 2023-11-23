@@ -4,7 +4,6 @@ collection: teaching
 type: "Master's Degree Course"
 permalink: /teaching/2023-fall-mias-m2-ML-DL
 venue: "Centrale Lille Institut, ILIS - Faculté d'Ingénierie et Management de la Santé"
-date: "2023-10 to 2023-11"
 location: "Lille, France"
 ---
 
