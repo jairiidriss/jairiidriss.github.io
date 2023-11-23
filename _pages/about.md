@@ -22,7 +22,7 @@ Education
 Skills
 ======
 <ul>
-  <li>Areas of Expertise: Machine learning, Deep learning, Data visualization, Data preparation, Data Science, Statistics, Software engineering, and Problem-solving.</li>
+  <li>Areas of Expertise: Machine learning, Deep learning, Data visualization, Data preparation, Data Science, Statistics, Software engineering, Web Development and Problem-solving.</li>
   <li>Programming Languages: C, C++, JavaScript, HTML/CSS, Python, Java, PHP, SQL, Latex.</li>
   <li>Frameworks/Systems: MVC, Django, Bootstrap, WordPress, VueJS</li>
 </ul>
@@ -39,4 +39,3 @@ Teaching Activity
 <ul>
   <li>Machine Learning and Deep Learning - MASTER MIAS M2</li>
 </ul>
-

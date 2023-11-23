@@ -3,7 +3,7 @@ title: "Machine Learning and Deep Learning Course"
 collection: teaching
 type: "Master's Degree Course"
 permalink: /teaching/2023-fall-mias-m2-ML-DL
-venue: "Centrale Lille Institut, ILIS - Faculté d'Ingénierie et Management de la Santé"
+venue: "Centrale Lille Institut, ILIS - Faculté d'Ingénierie et Management de la Sante"
 location: "Lille, France"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Neural transfer learning for soil liquefaction tests"
 collection: publications
-permalink: /publication/2022-12-05-neural-transfer-learning-for-soil-liquefaction-tests
+#permalink: /publication/2022-12-05-neural-transfer-learning-for-soil-liquefaction-tests
 date: 2022-12-05
 venue: 'Computers & Geosciences'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S009830042200231X'
