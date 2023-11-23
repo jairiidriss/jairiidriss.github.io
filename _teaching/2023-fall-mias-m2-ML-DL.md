@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning and Deep Learning Course"
+title: "MIAS M2 - Machine Learning and Deep Learning Course"
 collection: teaching
 type: "Master's Degree Course"
 permalink: /teaching/2023-fall-mias-m2-ML-DL
