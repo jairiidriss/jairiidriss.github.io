@@ -1,5 +1,5 @@
 ---
-title: "Neural transfer learning for soil liquefaction tests"
+title: "Neurssal transfer learning for soil liquefaction tests"
 collection: publications
 #permalink: /publication/2022-12-05-neural-transfer-learning-for-soil-liquefaction-tests
 date: 2022-12-05
