@@ -8,34 +8,78 @@ redirect_from:
   - /about.html
 ---
 
+{% include base_path %}
+
+
 I am Idriss JAIRI, a Ph.D. student in machine learning at the University of Lille. Having a background in software engineering and data science.
 
 Education
 ======
-<ul>
-  <li>Ph.D. in Machine Learning, University of Lille, Lille, 2022-Now</li>
-  <li>M.S. in Computer Science and Technology, Southwest Petroleum University, Chengdu, 2019-2022</li>
-  <li>B.S. in Computer Science, Faculty of Science, Agadir, 2018-2019</li>
-  <li>DUT (Diplôme universitaire de technologie) in Computer Science, Higher School of Technology, Agadir, 2016-2018</li>
-</ul>
 
+* Ph.D. in Machine Learning, University of Lille, Lille, 2022-Now
+* M.S. in Computer Science and Technology, Southwest Petroleum University, Chengdu, 2019-2022
+* B.S. in Computer Science, Faculty of Science, Agadir, 2018-2019
+* DUT (Diplôme universitaire de technologie) in Computer Science, Higher School of Technology, Agadir, 2016-2018
+
+Work experience
+======
+* Summer 2015: Research Assistant
+  * Github University
+  * Duties included: Tagging issues
+  * Supervisor: Professor Git
+
+* Fall 2015: Research Assistant
+  * Github University
+  * Duties included: Merging pull requests
+  * Supervisor: Professor Hub
+  
 Skills
 ======
-<ul>
-  <li>Areas of Expertise: Machine learning, Deep learning, Data visualization, Data preparation, Data Science, Statistics, Software engineering, Web Development and Problem-solving.</li>
-  <li>Programming Languages: C, C++, JavaScript, HTML/CSS, Python, Java, PHP, SQL, Latex.</li>
-  <li>Frameworks/Systems: MVC, Django, Bootstrap, WordPress, VueJS</li>
-</ul>
+* Skill 1
+* Skill 2
+  * Sub-skill 2.1
+  * Sub-skill 2.2
+  * Sub-skill 2.3
+* Skill 3
+
+* Areas of Expertise: 
+    * Machine learning
+    * Deep learning
+    * Data visualization, Data preparation
+    * Data Science, Statistics
+    * Software engineering
+    * Web Development
+    * Problem-solving
+* Programming Languages: 
+    * C, C++, JavaScript, HTML/CSS, Python, Java, PHP, SQL, Latex.</li>
+* Frameworks/Systems: 
+    * MVC, Django, Bootstrap, WordPress, VueJS
+
+Publications
+======
+  <ul>
+    {% for post in site.publications %}
+      {% include archive-single-cv.html %}
+    {% endfor %}
+  </ul>
+  
+Talks
+======
+  <ul>
+  {% for post in site.talks %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}
+  </ul>
+  
+Teaching
+======
+  <ul>
+    {% for post in site.teaching %}
+      {% include archive-single-cv.html %}
+    {% endfor %}
+  </ul>
 
 Grants and Awards
 ======
-<ul>
-  <li>Sichuan Provincial Government Scholarship for Foreign Students, 2021-2022</li>
-  <li>Sichuan Provincial Government Scholarship for Foreign Students, 2020-2021</li>
-</ul>
-
-Teaching Activity
-======
-<ul>
-  <li>Machine Learning and Deep Learning - MASTER MIAS M2</li>
-</ul>
+* Sichuan Provincial Government Scholarship for Foreign Students, 2021-2022
+* Sichuan Provincial Government Scholarship for Foreign Students, 2020-2021
