@@ -11,17 +11,17 @@ redirect_from:
 {% include base_path %}
 
 
-I am Idriss JAIRI, a Ph.D. student in machine learning at the University of Lille. Having a background in software engineering and data science.
+I am Idriss JAIRI, a Ph.D. student in machine learning at the <a href = "https://www.univ-lille.fr/">University of Lille</a> (<a href = "https://www.cristal.univ-lille.fr/">CRIStAL Laboratory</a>). Having a background in software engineering and data science.
 
 Education
 ======
 
-* Ph.D. in Machine Learning, <a href = "https://www.univ-lille.fr/">University of Lille</a> (<a href = "https://www.cristal.univ-lille.fr/">CRIStAL Laboratory</a>), Lille, 2022-Now
-* M.S. in Computer Science and Technology, <a href = "https://www.swpu.edu.cn/">Southwest Petroleum University</a>, Chengdu, 2019-2022
+* Ph.D. in Machine Learning, <a href = "https://www.univ-lille.fr/">University of Lille</a> (<a href = "https://www.cristal.univ-lille.fr/">CRIStAL Laboratory</a>), Lille, France, 2022-Now
+* M.S. in Computer Science and Technology, <a href = "https://www.swpu.edu.cn/">Southwest Petroleum University</a>, Chengdu, China, 2019-2022
   * Supervisor: <a href = "https://www.researchgate.net/profile/Yu-Fang-36">Dr. Yu Fang</a>
-  * Final year thesis: Neural Transfer Learning for Soil Liquefaction
-* B.S. in Computer Science, <a href = "https://www.uiz.ac.ma/faculte-des-sciences-agadir">Faculty of Sciences Ibn ZOHR</a>, Agadir, 2018-2019
-* DUT (Diplôme universitaire de technologie) in Computer Science, <a href = "https://www.esta.ac.ma/">Higher School of Technology</a>, Agadir, 2016-2018
+  * Final year thesis: Neural Transfer Learning for Soil Liquefaction Tests
+* B.S. in Computer Science, <a href = "https://www.uiz.ac.ma/faculte-des-sciences-agadir">Faculty of Sciences Ibn ZOHR</a>, Agadir, Morocco, 2018-2019
+* DUT (Diplôme universitaire de technologie) in Computer Science, <a href = "https://www.esta.ac.ma/">Higher School of Technology</a>, Agadir, Morocco, 2016-2018
 
 Research experience
 ======
