@@ -18,6 +18,7 @@ Education
 
 * Ph.D. in Machine Learning, <a href = "https://www.univ-lille.fr/">University of Lille</a> (<a href = "https://www.cristal.univ-lille.fr/">CRIStAL Laboratory</a>), Lille, 2022-Now
 * M.S. in Computer Science and Technology, <a href = "https://www.swpu.edu.cn/">Southwest Petroleum University</a>, Chengdu, 2019-2022
+  * Supervisor: <a href = "https://www.researchgate.net/profile/Yu-Fang-36">Dr. Yu Fang</a>
 * B.S. in Computer Science, Faculty of Science, Agadir, 2018-2019
 * DUT (Diplôme universitaire de technologie) in Computer Science, Higher School of Technology, Agadir, 2016-2018
 
