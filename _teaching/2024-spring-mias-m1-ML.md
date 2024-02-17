@@ -1,8 +1,8 @@
 ---
-title: "MIAS M2 - Machine Learning and Deep Learning Course"
+title: "MIAS M1 - Machine Learning: Part 2"
 collection: teaching
 type: "Master's Degree Course"
-permalink: /teaching/2023-fall-mias-m2-ML-DL
+permalink: /teaching/2024-spring-mias-m1-ML
 venue: "Centrale Lille Institut, ILIS - Faculté d'Ingénierie et Management de la Santé"
 location: "Lille, France"
 ---
