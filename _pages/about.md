@@ -19,19 +19,27 @@ Education
 * Ph.D. in Machine Learning, <a href = "https://www.univ-lille.fr/">University of Lille</a> (<a href = "https://www.cristal.univ-lille.fr/">CRIStAL Laboratory</a>), Lille, 2022-Now
 * M.S. in Computer Science and Technology, <a href = "https://www.swpu.edu.cn/">Southwest Petroleum University</a>, Chengdu, 2019-2022
   * Supervisor: <a href = "https://www.researchgate.net/profile/Yu-Fang-36">Dr. Yu Fang</a>
-* B.S. in Computer Science, Faculty of Science, Agadir, 2018-2019
-* DUT (Diplôme universitaire de technologie) in Computer Science, Higher School of Technology, Agadir, 2016-2018
+  * Final year thesis: Neural Transfer Learning for Soil Liquefaction
+* B.S. in Computer Science, <a href = "https://www.uiz.ac.ma/faculte-des-sciences-agadir">Faculty of Sciences Ibn ZOHR</a>, Agadir, 2018-2019
+* DUT (Diplôme universitaire de technologie) in Computer Science, <a href = "https://www.esta.ac.ma/">Higher School of Technology</a>, Agadir, 2016-2018
 
-Work experience
+Research experience
 ======
-* 2020-09 to 2022-06: Research Assistant
-  * Southwest Petroleum University
-  * Duties included: Exploring and Developing new techniques to evaluate the liquefaction of soil using machine learning techniques
-  * Supervisor: Dr. Yu FANG
 
+* 2022-10 to Now: PhD Student
+  * <a href = "https://www.univ-lille.fr/">University of Lille</a> (<a href = "https://www.cristal.univ-lille.fr/">CRIStAL Laboratory</a>)
+  * Design and development of intelligent performance indicators for environmental preservation support based on the "water-air-soil" strategy
+
+* 2020-09 to 2022-06: Research Assistant (Machine Learning Researcher)
+  * <a href = "https://www.swpu.edu.cn/">Southwest Petroleum University</a>
+  * Duties included: Exploring and Developing new techniques to evaluate the liquefaction of soil using machine learning techniques
+  * Supervisor: <a href = "https://www.researchgate.net/profile/Yu-Fang-36">Dr. Yu Fang</a>
+
+Internships
+======
 * 2019-02 to 2019-04: Internship - Web Developer
-  * Vala-orange
-  * Duties included: Developing web application and SEO
+  * <a href = "https://www.vala.ma/">Vala-orange</a>
+  * Duties included: Developing web application and SEO (Search Engine Optimization)
 
 * 2018-03 to 2018-06: Internship - Web Developer
   * WOHLSTANDFURALLE SARL
@@ -79,5 +87,5 @@ Teaching
 
 Grants and Awards
 ======
-* Sichuan Provincial Government Scholarship for Foreign Students, 2021-2022
-* Sichuan Provincial Government Scholarship for Foreign Students, 2020-2021
+* Sichuan Provincial Government Scholarship for Foreign Students in <a href = "https://www.swpu.edu.cn/">Southwest Petroleum University</a>, 2021-2022
+* Sichuan Provincial Government Scholarship for Foreign Students in <a href = "https://www.swpu.edu.cn/">Southwest Petroleum University</a>, 2020-2021
