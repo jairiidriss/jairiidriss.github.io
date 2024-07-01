@@ -79,8 +79,7 @@ Teaching
 
 Supervision
 ======
-
-
+* Master M1 Project: Machine learning-based decision support system in resuming driving with visual field deficits.
 
 
 Grants and Awards
