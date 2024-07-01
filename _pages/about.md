@@ -57,14 +57,15 @@ Skills
     * Web development
     * Problem-solving
 * Programming Languages: 
-    * C, C++, JavaScript, HTML/CSS, Python, Java, PHP, SQL, Latex</li>
+    * C, C++, JavaScript, HTML/CSS, Python, Java, PHP, SQL, Latex
 * Frameworks/Systems: 
     * MVC, Django, Bootstrap, WordPress, VueJS
 
 Publications
 ======
   <ul>
-    {% for post in site.publications %}
+    {% assign sorted_posts = site.publications | sort: 'date' | reverse %}
+    {% for post in sorted_posts %}
       {% include archive-single-cv.html %}
     {% endfor %}
   </ul>
