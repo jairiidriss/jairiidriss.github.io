@@ -1,5 +1,5 @@
 ---
-title: "Enhancing particulate matter risk assessment with novel machine learning-driven toxicity threshold prediction"
+title: "Enhanciasng particulate matter risk assessment with novel machine learning-driven toxicity threshold prediction"
 collection: publications
 date: 2024-10-20
 venue: 'Engineering Applications of Artificial Intelligence'
