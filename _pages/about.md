@@ -17,9 +17,11 @@ Education
 ======
 
 * Ph.D. in Machine Learning, <a href = "https://www.univ-lille.fr/">University of Lille</a> (<a href = "https://www.cristal.univ-lille.fr/">CRIStAL Laboratory</a>), Lille, France, 2022-Now
+  * Supervisor: <a href = "https://www.researchgate.net/profile/Hayfa-Zgaya">Prof. Hayfa Zgaya</a>
+  * Thesis: Design and development of intelligent performance indicators to help preserve the environment based on the so-called “water-air-soil” strategy
 * M.S. in Computer Science and Technology, <a href = "https://www.swpu.edu.cn/">Southwest Petroleum University</a>, Chengdu, China, 2019-2022
   * Supervisor: <a href = "https://www.researchgate.net/profile/Yu-Fang-36">Dr. Yu Fang</a>
-  * Final year thesis: Neural Transfer Learning for Soil Liquefaction Tests
+  * Final year thesis: Neural transfer learning for soil liquefaction tests
 * B.S. in Computer Science, <a href = "https://www.uiz.ac.ma/faculte-des-sciences-agadir">Faculty of Sciences Ibn ZOHR</a>, Agadir, Morocco, 2018-2019
 * DUT (Diplôme universitaire de technologie) in Computer Science, <a href = "https://www.esta.ac.ma/">Higher School of Technology</a>, Agadir, Morocco, 2016-2018
 
@@ -33,8 +35,7 @@ Research experience
 * 2020-09 to 2022-06: Research Assistant (Machine Learning Researcher)
   * <a href = "https://www.swpu.edu.cn/">Southwest Petroleum University</a>
   * Duties included: Exploring and Developing new techniques to evaluate the liquefaction of soil using machine learning techniques
-  * Supervisor: <a href = "https://www.researchgate.net/profile/Yu-Fang-36">Dr. Yu Fang</a>
-
+  
 Internships
 ======
 * 2019-02 to 2019-04: Internship - Web Developer
@@ -61,7 +62,7 @@ Skills
 * Frameworks/Systems: 
     * MVC, Django, Bootstrap, WordPress, VueJS
 
-Publications
+Highlighted Publications
 ======
   <ul>
     {% assign sorted_posts = site.publications | sort: 'date' | reverse %}
