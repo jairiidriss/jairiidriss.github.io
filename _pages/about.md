@@ -16,14 +16,20 @@ I am Idriss JAIRI, a Ph.D. student in machine learning at the <a href = "https:/
 Education
 ======
 
-* Ph.D. in Machine Learning, <a href = "https://www.univ-lille.fr/">University of Lille</a> (<a href = "https://www.cristal.univ-lille.fr/">CRIStAL Laboratory</a>), Lille, France, 2022-Now
-  * Supervisor: <a href = "https://www.researchgate.net/profile/Hayfa-Zgaya">Prof. Hayfa Zgaya</a>
-  * Thesis: Design and development of intelligent performance indicators to help preserve the environment based on the so-called “water-air-soil” strategy
-* M.S. in Computer Science and Technology, <a href = "https://www.swpu.edu.cn/">Southwest Petroleum University</a>, Chengdu, China, 2019-2022
-  * Supervisor: <a href = "https://www.researchgate.net/profile/Yu-Fang-36">Dr. Yu Fang</a>
-  * Final year thesis: Neural transfer learning for soil liquefaction tests
-* B.S. in Computer Science, <a href = "https://www.uiz.ac.ma/faculte-des-sciences-agadir">Faculty of Sciences Ibn ZOHR</a>, Agadir, Morocco, 2018-2019
-* DUT (Diplôme universitaire de technologie) in Computer Science, <a href = "https://www.esta.ac.ma/">Higher School of Technology</a>, Agadir, Morocco, 2016-2018
+* Ph.D. in Machine Learning, <a href="https://www.univ-lille.fr/">University of Lille</a>, Lille, France (Oct 2022 – Sept 2025)
+  * Supervisor: <a href="https://www.researchgate.net/profile/Hayfa-Zgaya">Prof. Hayfa Zgaya</a>
+  * Thesis: Design and Development of Intelligent Air Quality Indicators for Environmental and Health Preservation Support
+
+* Master of Science in Computer Science & Technology, <a href="https://www.swpu.edu.cn/">Southwest Petroleum University</a>, Chengdu, China (Oct 2019 – June 2022)
+  * Supervisor: <a href="https://www.researchgate.net/profile/Yu-Fang-36">Dr. Yu Fang</a>
+  * Thesis: Neural Transfer Learning for Soil Liquefaction Tests
+  * Overall GPA: 4.27/5
+
+* Bachelor of Science in Computer Science & Engineering, <a href="https://www.uiz.ac.ma/faculte-des-sciences-agadir">Faculty of Sciences Ibn Zohr</a>, Agadir, Morocco (Sep 2018 – June 2019)
+  * Final-year project: Development of a Web Application for Managing Barbershop Appointments and Scheduling
+
+* DUT (University Technology Diploma) in Computer Science & Engineering, <a href="https://www.esta.ac.ma/">Higher School of Technology</a>, Agadir, Morocco (Sep 2016 – June 2018)
+  * Final-year project: Design and Development of a 3D Game with Unity 3D
 
 Research experience
 ======
