@@ -11,7 +11,8 @@ redirect_from:
 {% include base_path %}
 
 
-I am Idriss JAIRI, a Ph.D. student in machine learning at the <a href = "https://www.univ-lille.fr/">University of Lille</a> (<a href = "https://www.cristal.univ-lille.fr/">CRIStAL Laboratory</a>). Having a background in software engineering and data science.
+I am Idriss JAIRI, a Ph.D. student in Machine Learning at the <a href = "https://www.univ-lille.fr/">University of Lille</a> (<a href = "https://www.cristal.univ-lille.fr/">CRIStAL Laboratory</a>), with a background in software engineering and data science.
+
 
 Education
 ======
@@ -31,26 +32,32 @@ Education
 * DUT (University Technology Diploma) in Computer Science & Engineering, <a href="https://www.esta.ac.ma/">Higher School of Technology</a>, Agadir, Morocco (Sep 2016 – June 2018)
   * Final-year project: Design and Development of a 3D Game with Unity 3D
 
-Research experience
+Research Experience
 ======
 
-* 2022-10 to Now: PhD Student
-  * <a href = "https://www.univ-lille.fr/">University of Lille</a> (<a href = "https://www.cristal.univ-lille.fr/">CRIStAL Laboratory</a>)
-  * Design and development of intelligent performance indicators for environmental preservation support based on the "water-air-soil" strategy
+* Ph.D. Student (Machine Learning Researcher), <a href="https://www.univ-lille.fr/">University of Lille</a> (<a href="https://www.cristal.univ-lille.fr/">CRIStAL Laboratory</a>), Lille, France (Oct 2022 – Present)
+  * Focus on the design and development of intelligent air quality indicators for environmental and health preservation support.
+  * Research on interpretable and explainable machine learning approaches.
+  * Collaboration with interdisciplinary teams to address environmental challenges.
 
-* 2020-09 to 2022-06: Research Assistant (Machine Learning Researcher)
-  * <a href = "https://www.swpu.edu.cn/">Southwest Petroleum University</a>
-  * Duties included: Exploring and Developing new techniques to evaluate the liquefaction of soil using machine learning techniques
-  
+* Graduate Research Assistant, <a href="https://www.swpu.edu.cn/">Southwest Petroleum University</a>, Chengdu, China (Sep 2020 – June 2022)
+  * Conducted research on machine learning models for soil liquefaction detection and evaluation.
+  * Applied advanced machine learning and deep learning algorithms for predictive modeling.
+  * Collaborated with the Civil Engineering Department on novel solutions.
+  * Contributed to the preparation and publication of multiple peer-reviewed papers.
+
+---
+
 Internships
 ======
-* 2019-02 to 2019-04: Internship - Web Developer
-  * <a href = "https://www.vala.ma/">Vala-orange</a>
-  * Duties included: Developing web application and SEO (Search Engine Optimization)
 
-* 2018-03 to 2018-06: Internship - Web Developer
-  * WOHLSTANDFURALLE SARL
-  * Duties included: Developing E-commerce web application
+* Web Developer Intern, <a href="https://www.vala.ma/">Vala-Orange</a>, Agadir, Morocco (Feb 2019 – Apr 2019)
+  * Developed a dynamic web application using PHP and MySQL to meet client requirements.
+  * Implemented SEO (Search Engine Optimization) strategies to improve online visibility.
+
+* Web Developer Intern, WOHLSTANDFURALLE SARL, Casablanca, Morocco (Mar 2018 – June 2018)
+  * Designed and developed an e-commerce web application using WordPress, PHP, and MySQL.
+  * Integrated payment gateways and ensured responsive design for enhanced user experience.
   
 Skills
 ======
