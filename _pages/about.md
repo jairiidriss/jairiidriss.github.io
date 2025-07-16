@@ -35,7 +35,7 @@ Education
 Research Experience
 ======
 
-* Ph.D. Student (Machine Learning Researcher), <a href="https://www.univ-lille.fr/">University of Lille</a> (<a href="https://www.cristal.univ-lille.fr/">CRIStAL Laboratory</a>), Lille, France (Oct 2022 – Present)
+* Ph.D. Student (Machine Learning Researcher), <a href="https://www.univ-lille.fr/">University of Lille</a> (<a href="https://www.cristal.univ-lille.fr/">CRIStAL Laboratory</a>), Lille, France (Oct 2022 – Sept 2025)
   * Focus on the design and development of intelligent air quality indicators for environmental and health preservation support.
   * Research on interpretable and explainable machine learning approaches.
   * Collaboration with interdisciplinary teams to address environmental challenges.
@@ -62,18 +62,11 @@ Internships
 Skills
 ======
 
-* Areas of Expertise: 
-    * Machine learning
-    * Deep learning
-    * Data visualization, Data preparation
-    * Data science, Statistics
-    * Software engineering
-    * Web development
-    * Problem-solving
-* Programming Languages: 
-    * C, C++, JavaScript, HTML/CSS, Python, Java, PHP, SQL, Latex
-* Frameworks/Systems: 
-    * MVC, Django, Bootstrap, WordPress, VueJS
+* **Areas of Expertise:** Machine Learning, Deep Learning, Time Series Analysis, Data Visualization, Data Preparation, Data Science, Statistics, Software Engineering, Web Development, Problem-Solving
+
+* **Programming Languages:** C, C++, JavaScript, HTML/CSS, Python, Java, PHP, SQL, LaTeX
+
+* **Frameworks and Systems:** MVC, Django, Bootstrap, WordPress, Vue.js
 
 Highlighted Publications
 ======
