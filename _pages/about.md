@@ -10,87 +10,92 @@ redirect_from:
 
 {% include base_path %}
 
+I am **Dr. Idriss JAIRI**, a **Postdoctoral Researcher** in Artificial Intelligence at the [LIRMM (Montpellier Laboratory of Informatics, Robotics, and Microelectronics)](https://www.lirmm.fr/) in **Montpellier, France**.  
+My research focuses on **deep learning for environmental and ecological intelligence**, particularly developing **multimodal AI systems** that integrate vision, audio, and sensor data to monitor and model complex natural phenomena such as **honeybee colony health**.  
+Previously, I earned my **Ph.D. in Machine Learning** from the [University of Lille](https://www.univ-lille.fr/) ([CRIStAL Laboratory](https://www.cristal.univ-lille.fr/)), where I designed **intelligent air quality indicators** and **explainable machine learning models** for environmental and health preservation.
 
-I am Idriss JAIRI, a Ph.D. student in Machine Learning at the <a href = "https://www.univ-lille.fr/">University of Lille</a> (<a href = "https://www.cristal.univ-lille.fr/">CRIStAL Laboratory</a>), with a background in software engineering and data science.
+---
 
+Research and Professional Experience
+======
+
+* **Postdoctoral Researcher**, [LIRMM – Montpellier Laboratory of Informatics, Robotics, and Microelectronics](https://www.lirmm.fr/), Montpellier, France (Oct 2025 – Present)  
+  * Working on the **SuperBeeLive project**, focusing on deep learning for honeybee colony monitoring.  
+  * Developing **multimodal AI approaches** (vision, audio, and sensor fusion) to quantify beehive health.  
+  * Conducting research on **unsupervised learning** and **recurrent neural models** for predicting colony vitality under environmental stressors.  
+  * Contributing to **biodiversity and sustainability research** through interdisciplinary collaboration.
+
+* **Doctoral Researcher**, [University of Lille](https://www.univ-lille.fr/), [CRIStAL Laboratory](https://www.cristal.univ-lille.fr/), Lille, France (Oct 2022 – Sept 2025)  
+  * Conducted research on **machine learning models for intelligent air quality indicators**.  
+  * Focused on **explainable AI**, **transfer learning**, and **toxicity threshold prediction**.  
+  * Published multiple papers in **top-ranked international journals** and presented work at major conferences (e.g., ECAI, MIE).  
+  * Contributed to the **ANR IARISQ project** on AI-based air quality and health risk prediction.
+
+* **Graduate Research Assistant**, [Southwest Petroleum University](https://www.swpu.edu.cn/), Chengdu, China (Sep 2020 – June 2022)  
+  * Developed and validated **machine learning models** for **soil liquefaction detection**.  
+  * Applied **deep learning** and **transfer learning** techniques for geotechnical data modeling.  
+  * Collaborated with the **Civil Engineering Department** on novel predictive frameworks.  
+  * Co-authored several **peer-reviewed publications**.
+
+---
 
 Education
 ======
 
-* Ph.D. in Machine Learning, <a href="https://www.univ-lille.fr/">University of Lille</a>, Lille, France (Oct 2022 – Sept 2025)
-  * Supervisor: <a href="https://www.researchgate.net/profile/Hayfa-Zgaya">Prof. Hayfa Zgaya</a>
-  * Thesis: Design and Development of Intelligent Air Quality Indicators for Environmental and Health Preservation Support
+* **Ph.D. in Machine Learning**, [University of Lille](https://www.univ-lille.fr/), Lille, France (Oct 2022 – Sept 2025)  
+  * Supervisor: [Prof. Hayfa Zgaya](https://www.researchgate.net/profile/Hayfa-Zgaya)  
+  * Thesis: *Design and Development of Intelligent Air Quality Indicators for Environmental and Health Preservation Support*
 
-* Master of Science in Computer Science & Technology, <a href="https://www.swpu.edu.cn/">Southwest Petroleum University</a>, Chengdu, China (Oct 2019 – June 2022)
-  * Supervisor: <a href="https://www.researchgate.net/profile/Yu-Fang-36">Dr. Yu Fang</a>
-  * Thesis: Neural Transfer Learning for Soil Liquefaction Tests
-  * Overall GPA: 4.27/5
+* **Master of Science in Computer Science & Technology**, [Southwest Petroleum University](https://www.swpu.edu.cn/), Chengdu, China (Oct 2019 – June 2022)  
+  * Supervisor: [Dr. Yu Fang](https://www.researchgate.net/profile/Yu-Fang-36)  
+  * Thesis: *Neural Transfer Learning for Soil Liquefaction Tests*  
+  * GPA: 4.27/5
 
-* Bachelor of Science in Computer Science & Engineering, <a href="https://www.uiz.ac.ma/faculte-des-sciences-agadir">Faculty of Sciences Ibn Zohr</a>, Agadir, Morocco (Sep 2018 – June 2019)
-  * Final-year project: Development of a Web Application for Managing Barbershop Appointments and Scheduling
+* **Bachelor of Science in Computer Science & Engineering**, [Faculty of Sciences Ibn Zohr](https://www.uiz.ac.ma/faculte-des-sciences-agadir), Agadir, Morocco (Sep 2018 – June 2019)  
+  * Final-year project: *Development of a Web Application for Managing Barbershop Appointments and Scheduling*
 
-* DUT (University Technology Diploma) in Computer Science & Engineering, <a href="https://www.esta.ac.ma/">Higher School of Technology</a>, Agadir, Morocco (Sep 2016 – June 2018)
-  * Final-year project: Design and Development of a 3D Game with Unity 3D
-
-Research Experience
-======
-
-* Ph.D. Student (Machine Learning Researcher), <a href="https://www.univ-lille.fr/">University of Lille</a> (<a href="https://www.cristal.univ-lille.fr/">CRIStAL Laboratory</a>), Lille, France (Oct 2022 – Sept 2025)
-  * Focus on the design and development of intelligent air quality indicators for environmental and health preservation support.
-  * Research on interpretable and explainable machine learning approaches.
-  * Collaboration with interdisciplinary teams to address environmental challenges.
-
-* Graduate Research Assistant, <a href="https://www.swpu.edu.cn/">Southwest Petroleum University</a>, Chengdu, China (Sep 2020 – June 2022)
-  * Conducted research on machine learning models for soil liquefaction detection and evaluation.
-  * Applied advanced machine learning and deep learning algorithms for predictive modeling.
-  * Collaborated with the Civil Engineering Department on novel solutions.
-  * Contributed to the preparation and publication of multiple peer-reviewed papers.
+* **DUT (University Technology Diploma)** in Computer Science & Engineering, [Higher School of Technology](https://www.esta.ac.ma/), Agadir, Morocco (Sep 2016 – June 2018)  
+  * Final-year project: *Design and Development of a 3D Game with Unity 3D*
 
 ---
 
-Internships
-======
-
-* Web Developer Intern, <a href="https://www.vala.ma/">Vala-Orange</a>, Agadir, Morocco (Feb 2019 – Apr 2019)
-  * Developed a dynamic web application using PHP and MySQL to meet client requirements.
-  * Implemented SEO (Search Engine Optimization) strategies to improve online visibility.
-
-* Web Developer Intern, WOHLSTANDFURALLE SARL, Casablanca, Morocco (Mar 2018 – June 2018)
-  * Designed and developed an e-commerce web application using WordPress, PHP, and MySQL.
-  * Integrated payment gateways and ensured responsive design for enhanced user experience.
-  
 Skills
 ======
 
-* **Areas of Expertise:** Machine Learning, Deep Learning, Time Series Analysis, Data Visualization, Data Preparation, Data Science, Statistics, Software Engineering, Web Development, Problem-Solving
+* **Areas of Expertise:** Machine Learning, Deep Learning, Time Series Analysis, Data Visualization, Environmental Intelligence, Explainable AI, Software Engineering, Web Development  
+* **Programming Languages:** Python, C, C++, Java, PHP, SQL, JavaScript, HTML/CSS, LaTeX  
+* **Frameworks and Systems:** TensorFlow, PyTorch, Scikit-learn, Django, Vue.js, WordPress, Bootstrap  
 
-* **Programming Languages:** C, C++, JavaScript, HTML/CSS, Python, Java, PHP, SQL, LaTeX
-
-* **Frameworks and Systems:** MVC, Django, Bootstrap, WordPress, Vue.js
+---
 
 Highlighted Publications
 ======
-  <ul>
-    {% assign sorted_posts = site.publications | sort: 'date' | reverse %}
-    {% for post in sorted_posts %}
-      {% include archive-single-cv.html %}
-    {% endfor %}
-  </ul>
+<ul>
+  {% assign sorted_posts = site.publications | sort: 'date' | reverse %}
+  {% for post in sorted_posts %}
+    {% include archive-single-cv.html %}
+  {% endfor %}
+</ul>
+
+---
 
 Teaching
 ======
-  <ul>
-    {% for post in site.teaching %}
-      {% include archive-single-cv.html %}
-    {% endfor %}
-  </ul>
+<ul>
+  {% for post in site.teaching %}
+    {% include archive-single-cv.html %}
+  {% endfor %}
+</ul>
+
+---
 
 Supervision
 ======
-* Master M1 Project: Machine learning-based decision support system in resuming driving with visual field deficits.
+* Master M1 Project: *Machine Learning–Based Decision Support System for Resuming Driving with Visual Field Deficits.*
 
+---
 
 Grants and Awards
 ======
-* Sichuan Provincial Government Scholarship for Foreign Students in <a href = "https://www.swpu.edu.cn/">Southwest Petroleum University</a>, 2021-2022
-* Sichuan Provincial Government Scholarship for Foreign Students in <a href = "https://www.swpu.edu.cn/">Southwest Petroleum University</a>, 2020-2021
+* Sichuan Provincial Government Scholarship for Foreign Students, [Southwest Petroleum University](https://www.swpu.edu.cn/), 2021–2022  
+* Sichuan Provincial Government Scholarship for Foreign Students, [Southwest Petroleum University](https://www.swpu.edu.cn/), 2020–2021
