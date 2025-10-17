@@ -20,121 +20,170 @@
             line-height: 1.6;
             color: #2c3e50;
             background: #f5f7fa;
-            padding-top: 70px;
         }
 
-        .container {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 0 20px;
+        .layout {
+            display: flex;
+            min-height: 100vh;
         }
 
-        /* Navbar Styles */
-        nav {
+        /* Sidebar Styles */
+        .sidebar {
             position: fixed;
-            top: 0;
             left: 0;
-            right: 0;
-            background: #1e3c72;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            top: 0;
+            width: 320px;
+            height: 100vh;
+            background: linear-gradient(180deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 40px 30px;
+            overflow-y: auto;
             z-index: 1000;
         }
 
-        nav .container {
+        .sidebar::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .sidebar::-webkit-scrollbar-track {
+            background: rgba(255,255,255,0.1);
+        }
+
+        .sidebar::-webkit-scrollbar-thumb {
+            background: rgba(255,255,255,0.3);
+            border-radius: 4px;
+        }
+
+        .profile-pic {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            margin: 0 auto 25px;
+            display: block;
+            border: 5px solid rgba(255,255,255,0.3);
+            background: rgba(255,255,255,0.1);
             display: flex;
-            justify-content: space-between;
             align-items: center;
-            padding: 15px 20px;
+            justify-content: center;
+            font-size: 4em;
+            color: rgba(255,255,255,0.5);
         }
 
-        nav .logo {
-            color: white;
-            font-size: 1.3em;
-            font-weight: 600;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 25px;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-size: 0.95em;
-            transition: opacity 0.3s;
-            padding: 5px 10px;
-        }
-
-        nav ul li a:hover {
-            opacity: 0.7;
-        }
-
-        .menu-toggle {
-            display: none;
-            background: none;
-            border: none;
-            color: white;
-            font-size: 1.5em;
-            cursor: pointer;
-        }
-
-        header {
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-            color: white;
-            padding: 80px 0 60px;
+        .sidebar h1 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
             text-align: center;
         }
 
-        header h1 {
-            font-size: 2.8em;
-            margin-bottom: 10px;
-            font-weight: 600;
+        .sidebar .title {
+            font-size: 1em;
+            opacity: 0.9;
+            text-align: center;
+            margin-bottom: 20px;
+            line-height: 1.5;
         }
 
-        header .subtitle {
-            font-size: 1.3em;
-            opacity: 0.95;
-            margin-bottom: 25px;
-        }
-
-        .contact-info {
+        .sidebar .contact-item {
             display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-            margin-top: 20px;
-            font-size: 0.95em;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 0.9em;
         }
 
-        .contact-info a {
+        .sidebar .contact-item a {
             color: white;
             text-decoration: none;
             transition: opacity 0.3s;
         }
 
-        .contact-info a:hover {
+        .sidebar .contact-item a:hover {
             opacity: 0.7;
         }
 
+        .sidebar hr {
+            border: none;
+            border-top: 1px solid rgba(255,255,255,0.3);
+            margin: 25px 0;
+        }
+
+        .sidebar-nav {
+            margin-bottom: 30px;
+        }
+
+        .sidebar-nav h3 {
+            font-size: 1em;
+            margin-bottom: 15px;
+            opacity: 0.8;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .sidebar-nav ul {
+            list-style: none;
+        }
+
+        .sidebar-nav ul li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar-nav ul li a {
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s;
+            display: block;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+
+        .sidebar-nav ul li a:hover {
+            background: rgba(255,255,255,0.1);
+            padding-left: 20px;
+        }
+
+        .social-links-sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .social-links-sidebar a {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 15px;
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 5px;
+            transition: all 0.3s;
+            font-size: 0.95em;
+        }
+
+        .social-links-sidebar a:hover {
+            background: rgba(255,255,255,0.1);
+            border-color: rgba(255,255,255,0.5);
+        }
+
+        /* Main Content */
+        .main-content {
+            margin-left: 320px;
+            flex: 1;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
         section {
-            padding: 60px 0;
-        }
-
-        .section-light {
-            background: white;
-        }
-
-        .section-dark {
-            background: #f5f7fa;
+            padding: 40px 0;
         }
 
         h2 {
             font-size: 2em;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
             color: #1e3c72;
-            text-align: center;
             position: relative;
             padding-bottom: 15px;
         }
@@ -143,31 +192,30 @@
             content: '';
             position: absolute;
             bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
+            left: 0;
             width: 60px;
             height: 3px;
             background: #2a5298;
         }
 
         .about-content {
-            max-width: 800px;
-            margin: 0 auto;
             font-size: 1.05em;
             line-height: 1.8;
             color: #555;
         }
 
+        .about-content p {
+            margin-bottom: 15px;
+        }
+
         .experience-grid, .education-grid {
             display: grid;
-            gap: 30px;
-            max-width: 900px;
-            margin: 0 auto;
+            gap: 25px;
         }
 
         .experience-card, .education-card {
             background: white;
-            padding: 30px;
+            padding: 25px;
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.08);
             border-left: 4px solid #2a5298;
@@ -175,27 +223,20 @@
 
         .experience-card h3, .education-card h3 {
             color: #1e3c72;
-            font-size: 1.4em;
+            font-size: 1.3em;
             margin-bottom: 8px;
         }
 
-        .experience-card .position {
+        .experience-card .position, .education-card .degree {
             color: #2a5298;
-            font-size: 1.1em;
-            font-weight: 600;
-            margin-bottom: 5px;
-        }
-
-        .education-card .degree {
-            color: #2a5298;
-            font-size: 1.1em;
+            font-size: 1.05em;
             font-weight: 600;
             margin-bottom: 5px;
         }
 
         .experience-card .date, .education-card .date {
             color: #7f8c8d;
-            font-size: 0.95em;
+            font-size: 0.9em;
             margin-bottom: 15px;
         }
 
@@ -215,43 +256,34 @@
         }
 
         .skills-container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        .skill-category {
-            margin-bottom: 30px;
+            display: grid;
+            gap: 25px;
         }
 
         .skill-category h3 {
             color: #1e3c72;
-            font-size: 1.2em;
-            margin-bottom: 15px;
+            font-size: 1.1em;
+            margin-bottom: 12px;
         }
 
         .skill-tags {
             display: flex;
             flex-wrap: wrap;
-            gap: 12px;
+            gap: 10px;
         }
 
         .skill-tag {
             background: #e8f0fe;
             color: #1e3c72;
-            padding: 8px 20px;
+            padding: 6px 18px;
             border-radius: 20px;
-            font-size: 0.95em;
+            font-size: 0.9em;
             font-weight: 500;
-        }
-
-        .publications, .conferences, .awards {
-            max-width: 900px;
-            margin: 0 auto;
         }
 
         .publication-item, .conference-item, .award-item {
             background: white;
-            padding: 25px;
+            padding: 20px;
             margin-bottom: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.08);
@@ -260,12 +292,13 @@
         .publication-item .authors {
             color: #555;
             margin-bottom: 8px;
+            font-size: 0.95em;
         }
 
         .publication-item .title {
             color: #1e3c72;
             font-weight: 600;
-            font-size: 1.1em;
+            font-size: 1.05em;
             margin-bottom: 8px;
         }
 
@@ -273,12 +306,14 @@
             color: #7f8c8d;
             font-style: italic;
             margin-bottom: 10px;
+            font-size: 0.9em;
         }
 
         .publication-item a, .conference-item a {
             color: #2a5298;
             text-decoration: none;
-            font-size: 0.9em;
+            font-size: 0.85em;
+            word-break: break-all;
         }
 
         .publication-item a:hover, .conference-item a:hover {
@@ -288,7 +323,7 @@
         .conference-item .title {
             color: #1e3c72;
             font-weight: 600;
-            font-size: 1.05em;
+            font-size: 1em;
             margin-bottom: 8px;
         }
 
@@ -296,6 +331,7 @@
             color: #7f8c8d;
             font-style: italic;
             margin-bottom: 10px;
+            font-size: 0.9em;
         }
 
         .award-item {
@@ -304,10 +340,8 @@
         }
 
         .reviewing-content {
-            max-width: 900px;
-            margin: 0 auto;
             background: white;
-            padding: 30px;
+            padding: 25px;
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.08);
         }
@@ -315,13 +349,13 @@
         .reviewing-content h3 {
             color: #1e3c72;
             margin-bottom: 15px;
-            font-size: 1.2em;
+            font-size: 1.1em;
         }
 
         .reviewing-content p {
             color: #555;
             line-height: 1.8;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
         }
 
         .reviewing-content ul {
@@ -333,498 +367,478 @@
             margin-bottom: 8px;
         }
 
-        .cta-section {
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-            color: white;
-            text-align: center;
-            padding: 60px 0;
-        }
-
-        .cta-section h2 {
-            color: white;
-        }
-
-        .cta-section h2::after {
-            background: white;
-        }
-
-        .social-links {
-            display: flex;
-            gap: 25px;
-            justify-content: center;
-            margin-top: 30px;
-            flex-wrap: wrap;
-        }
-
-        .social-links a {
-            color: white;
-            text-decoration: none;
-            font-size: 1.05em;
-            padding: 12px 28px;
-            border: 2px solid white;
-            border-radius: 5px;
-            transition: all 0.3s;
-        }
-
-        .social-links a:hover {
-            background: white;
+        .subsection-title {
             color: #1e3c72;
+            margin: 30px 0 20px 0;
+            font-size: 1.2em;
         }
 
         footer {
             background: #1a252f;
             color: #aaa;
             text-align: center;
-            padding: 25px 0;
+            padding: 20px;
             font-size: 0.9em;
+            margin-left: -40px;
+            margin-right: -40px;
+            margin-bottom: -40px;
         }
 
-        @media (max-width: 768px) {
-            nav ul {
-                display: none;
-                flex-direction: column;
-                position: absolute;
-                top: 60px;
-                left: 0;
-                right: 0;
-                background: #1e3c72;
-                padding: 20px;
-                gap: 15px;
+        /* Mobile Toggle */
+        .mobile-toggle {
+            display: none;
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1001;
+            background: #1e3c72;
+            color: white;
+            border: none;
+            padding: 12px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .sidebar {
+                transform: translateX(-100%);
+                transition: transform 0.3s;
             }
 
-            nav ul.active {
-                display: flex;
+            .sidebar.active {
+                transform: translateX(0);
             }
 
-            .menu-toggle {
+            .main-content {
+                margin-left: 0;
+                padding: 80px 20px 40px;
+            }
+
+            .mobile-toggle {
                 display: block;
             }
 
-            header h1 {
-                font-size: 2em;
+            footer {
+                margin-left: -20px;
+                margin-right: -20px;
             }
-            
-            header .subtitle {
-                font-size: 1.1em;
-            }
+        }
 
-            .contact-info {
-                flex-direction: column;
-                gap: 10px;
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 280px;
             }
 
             h2 {
                 font-size: 1.6em;
             }
+
+            .main-content {
+                padding: 80px 15px 30px;
+            }
         }
     </style>
 </head>
 <body>
-    <nav>
-        <div class="container">
-            <div class="logo">Idriss JAIRI</div>
-            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-            <ul id="navMenu">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Research</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#teaching">Teaching</a></li>
-                <li><a href="#other">Other Work</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+    <button class="mobile-toggle" onclick="toggleSidebar()">☰ Menu</button>
 
-    <header>
-        <div class="container">
+    <div class="layout">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="profile-pic">👤</div>
+            
             <h1>Idriss JAIRI</h1>
-            <p class="subtitle">Machine Learning Researcher | Ph.D. in AI & Environmental Science</p>
-            <div class="contact-info">
-                <span>📍 Montpellier, France</span>
-                <span>•</span>
-                <a href="mailto:idriss.jairi@umontpellier.fr">✉️ idriss.jairi@umontpellier.fr</a>
-                <span>•</span>
-                <a href="tel:+33778532528">📱 +33 77 853 25 28</a>
+            <p class="title">Machine Learning Researcher<br>Ph.D. in AI & Environmental Science</p>
+            
+            <div class="contact-item">
+                📍 Montpellier, France
             </div>
-        </div>
-    </header>
-
-    <section id="about" class="section-light">
-        <div class="container">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <p>
-                    I am a postdoctoral researcher at LIRMM (Montpellier Laboratory of Informatics, Robotics, and Microelectronics), 
-                    specializing in deep learning applications for environmental monitoring. My research focuses on developing multimodal 
-                    AI approaches that combine vision, audio, and sensor fusion to address real-world challenges in biodiversity and sustainability.
-                </p>
-                <p style="margin-top: 15px;">
-                    I completed my Ph.D. at the University of Lille, where I developed intelligent air quality indicators using machine learning, 
-                    with a focus on explainable AI and transfer learning. My work has been published in top-ranked international journals, 
-                    and I am passionate about making AI accessible and impactful for environmental and health preservation.
-                </p>
+            <div class="contact-item">
+                📱 <a href="tel:+33778532528">+33 77 853 25 28</a>
             </div>
-        </div>
-    </section>
-
-    <section id="experience" class="section-dark">
-        <div class="container">
-            <h2>Research & Professional Experience</h2>
-            <div class="experience-grid">
-                <div class="experience-card">
-                    <h3>LIRMM, Montpellier</h3>
-                    <div class="position">Postdoctoral Researcher</div>
-                    <div class="date">October 2025 - Present | Montpellier, France</div>
-                    <ul>
-                        <li>Postdoc on the SuperBeeLive project, focusing on deep learning for honeybee colony monitoring</li>
-                        <li>Developing multimodal AI approaches (vision, audio, sensor fusion) to quantify beehive health</li>
-                        <li>Research on unsupervised learning and recurrent neural models to predict colony vitality under environmental stressors</li>
-                        <li>Contributing to biodiversity and sustainability research through interdisciplinary collaboration</li>
-                    </ul>
-                </div>
-
-                <div class="experience-card">
-                    <h3>University of Lille</h3>
-                    <div class="position">Doctoral Researcher</div>
-                    <div class="date">October 2022 - September 2025 | Lille, France</div>
-                    <ul>
-                        <li>Conducted research on machine learning models for intelligent air quality indicators</li>
-                        <li>Focused on explainable AI, transfer learning, and toxicity threshold prediction</li>
-                        <li>Published multiple journal papers in top-ranked international journals</li>
-                        <li>Presented research in international conferences and contributed to the ANR IARISQ project</li>
-                    </ul>
-                </div>
-
-                <div class="experience-card">
-                    <h3>Southwest Petroleum University</h3>
-                    <div class="position">Graduate Research Assistant</div>
-                    <div class="date">September 2020 - June 2022 | Chengdu, China</div>
-                    <ul>
-                        <li>Conducted research on the development and validation of machine learning models for soil liquefaction detection</li>
-                        <li>Applied advanced machine learning and deep learning algorithms for predictive modeling</li>
-                        <li>Collaborated closely with faculty and researchers in the Civil Engineering Department to design novel approaches</li>
-                        <li>Contributed to the development of two peer-reviewed scientific papers and authored two additional publications</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="education" class="section-light">
-        <div class="container">
-            <h2>Education</h2>
-            <div class="education-grid">
-                <div class="education-card">
-                    <h3>University of Lille, France</h3>
-                    <div class="degree">Ph.D. in Machine Learning</div>
-                    <div class="date">October 2022 - September 2025</div>
-                    <div class="details">
-                        <strong>Thesis:</strong> Design and Development of Intelligent Air Quality Indicators for Environmental and Health Preservation Support
-                    </div>
-                </div>
-
-                <div class="education-card">
-                    <h3>Southwest Petroleum University, China</h3>
-                    <div class="degree">Master of Science in Computer Science & Technology</div>
-                    <div class="date">October 2019 - June 2022</div>
-                    <div class="details">
-                        <strong>Thesis:</strong> Neural Transfer Learning for Soil Liquefaction Tests<br>
-                        <strong>Overall GPA:</strong> 4.27/5
-                    </div>
-                </div>
-
-                <div class="education-card">
-                    <h3>University of Ibn Zohr, Morocco</h3>
-                    <div class="degree">Bachelor of Science in Computer Science & Engineering</div>
-                    <div class="date">September 2018 - June 2019</div>
-                    <div class="details">
-                        <strong>Final-year project:</strong> Development of a Web Application for Managing Barbershop Appointments and Scheduling
-                    </div>
-                </div>
-
-                <div class="education-card">
-                    <h3>University of Ibn Zohr - Higher School of Technology, Morocco</h3>
-                    <div class="degree">DUT (University Technology Diploma) in Computer Science & Engineering</div>
-                    <div class="date">September 2016 - June 2018</div>
-                    <div class="details">
-                        <strong>Final-year project:</strong> Design and Development of a 3D Game with Unity 3D
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="teaching" class="section-dark">
-        <div class="container">
-            <h2>Teaching & Supervision Experience</h2>
-            <div class="experience-grid">
-                <div class="experience-card">
-                    <h3>École Centrale de Lille</h3>
-                    <div class="position">Instructor - 3rd Year Engineering Program (G3 - OSP Track)</div>
-                    <div class="date">2024-2025</div>
-                    <ul>
-                        <li>Taught Data Science and Machine Learning courses</li>
-                    </ul>
-                </div>
-
-                <div class="experience-card">
-                    <h3>École Centrale de Lille</h3>
-                    <div class="position">Instructor - Master in Management of AI in Health (MIAS M1)</div>
-                    <div class="date">2024-2025</div>
-                    <ul>
-                        <li>Taught Data Science and Machine Learning courses</li>
-                    </ul>
-                </div>
-
-                <div class="experience-card">
-                    <h3>École Centrale de Lille</h3>
-                    <div class="position">Instructor - Master in Management of AI in Health (MIAS M1)</div>
-                    <div class="date">2023-2024</div>
-                    <ul>
-                        <li>Taught Data Science (Part 2)</li>
-                        <li>Taught Machine Learning (Part 2)</li>
-                    </ul>
-                </div>
-
-                <div class="experience-card">
-                    <h3>École Centrale de Lille</h3>
-                    <div class="position">Instructor - Master in Management of AI in Health (MIAS M2)</div>
-                    <div class="date">2023-2024</div>
-                    <ul>
-                        <li>Taught Machine Learning course</li>
-                    </ul>
-                </div>
-
-                <div class="experience-card">
-                    <h3>École Centrale de Lille</h3>
-                    <div class="position">Instructor - International Biomedical Engineering Program (BME M2)</div>
-                    <div class="date">2023-2024</div>
-                    <ul>
-                        <li>Taught Machine Learning course</li>
-                    </ul>
-                </div>
-
-                <div class="experience-card">
-                    <h3>Student Supervision</h3>
-                    <div class="position">Master M1 Project Supervisor</div>
-                    <div class="date">2023-2024</div>
-                    <ul>
-                        <li>Supervised project: Machine Learning–Based Decision Support System for Resuming Driving with Visual Field Deficits</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="other" class="section-light">
-        <div class="container">
-            <h2>Other Experience</h2>
-            <div class="experience-grid">
-                <div class="experience-card">
-                    <h3>Freelance Web Developer</h3>
-                    <div class="position">Fiverr Platform</div>
-                    <div class="date">2020-2023</div>
-                    <ul>
-                        <li>Developed and managed multiple web projects simultaneously, ensuring timely delivery and high client satisfaction</li>
-                        <li>Technologies used: PHP, MySQL, WordPress, JavaScript</li>
-                        <li>Profile: <a href="https://www.fiverr.com/jairiidriss" target="_blank">fiverr.com/jairiidriss</a></li>
-                    </ul>
-                </div>
-
-                <div class="experience-card">
-                    <h3>Medium Writer</h3>
-                    <div class="position">Technical Content Creator</div>
-                    <div class="date">2020-Present</div>
-                    <ul>
-                        <li>Authored and published articles documenting my learning process and sharing technical insights with a wider audience</li>
-                        <li>Profile: <a href="https://medium.com/@jairiidriss" target="_blank">medium.com/@jairiidriss</a></li>
-                    </ul>
-                </div>
-
-                <div class="experience-card">
-                    <h3>Open Source Contributor</h3>
-                    <div class="position">GitHub</div>
-                    <div class="date">2020-Present</div>
-                    <ul>
-                        <li>Contributed to various open-source projects by enhancing functionalities, fixing bugs, and collaborating with the developer community</li>
-                        <li>Profile: <a href="https://github.com/jairiidriss" target="_blank">github.com/jairiidriss</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills" class="section-dark">
-        <div class="container">
-            <h2>Technical Skills</h2>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h3>Areas of Expertise</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Machine Learning</span>
-                        <span class="skill-tag">Deep Learning</span>
-                        <span class="skill-tag">Time Series Analysis</span>
-                        <span class="skill-tag">Data Visualization</span>
-                        <span class="skill-tag">Data Preparation</span>
-                        <span class="skill-tag">Data Science</span>
-                        <span class="skill-tag">Statistics</span>
-                        <span class="skill-tag">Software Engineering</span>
-                        <span class="skill-tag">Web Development</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Programming Languages</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">C</span>
-                        <span class="skill-tag">C++</span>
-                        <span class="skill-tag">Java</span>
-                        <span class="skill-tag">PHP</span>
-                        <span class="skill-tag">SQL</span>
-                        <span class="skill-tag">HTML/CSS</span>
-                        <span class="skill-tag">LaTeX</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Frameworks & Systems</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">MVC</span>
-                        <span class="skill-tag">Django</span>
-                        <span class="skill-tag">Bootstrap</span>
-                        <span class="skill-tag">WordPress</span>
-                        <span class="skill-tag">Vue.js</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="publications" class="section-light">
-        <div class="container">
-            <h2>Publications</h2>
-            <div class="publications">
-                <h3 style="color: #1e3c72; margin-bottom: 25px; font-size: 1.3em;">Highlighted Publications</h3>
-                
-                <div class="publication-item">
-                    <div class="authors"><strong>Idriss Jairi</strong>, Amelle Rekbi, Sarah Ben-Othman, Slim Hammadi, Ludivine Canivet, Hayfa Zgaya-Biau</div>
-                    <div class="title">Enhancing particulate matter risk assessment with novel machine learning-driven toxicity threshold prediction</div>
-                    <div class="journal">Engineering Applications of Artificial Intelligence, 2025</div>
-                    <a href="https://doi.org/10.1016/j.engappai.2024.109531" target="_blank">https://doi.org/10.1016/j.engappai.2024.109531</a>
-                </div>
-
-                <div class="publication-item">
-                    <div class="authors"><strong>Idriss Jairi</strong>, Sarah Ben-Othman, Ludivine Canivet, Hayfa Zgaya-Biau</div>
-                    <div class="title">Enhancing air pollution prediction: A neural transfer learning approach across different air pollutants</div>
-                    <div class="journal">Environmental Technology & Innovation, 2024</div>
-                    <a href="https://doi.org/10.1016/j.eti.2024.103793" target="_blank">https://doi.org/10.1016/j.eti.2024.103793</a>
-                </div>
-
-                <div class="publication-item">
-                    <div class="authors"><strong>Idriss Jairi</strong>, Sarah Ben-Othman, Ludivine Canivet, Hayfa Zgaya-Biau</div>
-                    <div class="title">Explainable approach for air quality classification using a granular computing rule extraction technique</div>
-                    <div class="journal">Engineering Applications of Artificial Intelligence, 2024</div>
-                    <a href="https://doi.org/10.1016/j.engappai.2024.108096" target="_blank">https://doi.org/10.1016/j.engappai.2024.108096</a>
-                </div>
-
-                <div class="publication-item">
-                    <div class="authors">Yu Fang, <strong>Idriss Jairi</strong>, Nima Pirhadi</div>
-                    <div class="title">Neural transfer learning for soil liquefaction tests</div>
-                    <div class="journal">Computers & Geosciences, 2023</div>
-                    <a href="https://doi.org/10.1016/j.cageo.2022.105282" target="_blank">https://doi.org/10.1016/j.cageo.2022.105282</a>
-                </div>
+            <div class="contact-item">
+                ✉️ <a href="mailto:idriss.jairi@umontpellier.fr">idriss.jairi@umontpellier.fr</a>
             </div>
 
-            <div class="conferences" style="margin-top: 50px;">
-                <h3 style="color: #1e3c72; margin-bottom: 25px; font-size: 1.3em;">Conferences & Workshops</h3>
-                
-                <div class="conference-item">
-                    <div class="authors">Natalia Grabar, <strong>Idriss Jairi</strong>, Hayfa Zgaya-Biau</div>
-                    <div class="title">Efficient Semantic Similarity Computing with Optimized BERT Models</div>
-                    <div class="event">Medical Informatics Europe, Glasgow, Scotland - May 2025</div>
-                    <a href="https://doi.org/10.3233/SHTI250480" target="_blank">https://doi.org/10.3233/SHTI250480</a>
-                </div>
+            <hr>
 
-                <div class="conference-item">
-                    <div class="authors"><strong>Idriss Jairi</strong></div>
-                    <div class="title">Design and Development of Intelligent Performance Indicators for Environmental Preservation Support Based on the "Water–Air–Soil" Strategy</div>
-                    <div class="event">Doctoral Consortium at ECAI – European Conference on Artificial Intelligence, Santiago de Compostela, Spain - October 2024</div>
-                    <a href="https://anaellewilczynski.pages.centralesupelec.fr/ecai-2024-dc/accepted.html" target="_blank">View Conference</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="reviewing" class="section-dark">
-        <div class="container">
-            <h2>Reviewing Activities & Research Projects</h2>
-            <div class="reviewing-content">
-                <h3>Peer Review</h3>
-                <p>Serving as a peer reviewer for the following journals:</p>
+            <nav class="sidebar-nav">
+                <h3>Navigation</h3>
                 <ul>
-                    <li><em>Engineering Applications of Artificial Intelligence (EAAI)</em></li>
-                    <li><em>Modeling Earth Systems and Environment</em></li>
-                    <li><em>Earth Science Informatics</em></li>
-                    <li><em>Environmental Monitoring and Assessment</em></li>
-                    <li><em>Scientific Reports</em></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Research</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#teaching">Teaching</a></li>
+                    <li><a href="#other">Other Work</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#reviewing">Reviewing</a></li>
+                    <li><a href="#awards">Awards</a></li>
                 </ul>
+            </nav>
 
-                <h3 style="margin-top: 30px;">Research Project Participation</h3>
-                <p>Participated in the setup of the ANR (Agence Nationale de la Recherche) research project <strong>IARISQ</strong> ("Conception et développement d'un système d'aide à la décision à base d'Intelligence Artificielle pour la prédiction de la qualité de l'air et la détermination des risques sanitaires des particules"), primarily based on my Ph.D. work, in collaboration with <strong>CRIStAL</strong>, <strong>LGCgE</strong>, and <strong>ATMO</strong>.</p>
+            <hr>
+
+            <div class="social-links-sidebar">
+                <a href="https://github.com/jairiidriss" target="_blank">
+                    <span>🔗</span> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/jairiidriss/" target="_blank">
+                    <span>🔗</span> LinkedIn
+                </a>
+                <a href="https://medium.com/@jairiidriss" target="_blank">
+                    <span>🔗</span> Medium
+                </a>
+                <a href="https://www.fiverr.com/jairiidriss" target="_blank">
+                    <span>🔗</span> Fiverr
+                </a>
             </div>
-        </div>
-    </section>
+        </aside>
 
-    <section id="awards" class="section-light">
-        <div class="container">
-            <h2>Grants & Awards</h2>
-            <div class="awards">
-                <div class="award-item">
-                    🏆 <strong>Sichuan Provincial Government Scholarship for Foreign Students</strong><br>
-                    Southwest Petroleum University | 2021-2022
-                </div>
-                <div class="award-item">
-                    🏆 <strong>Sichuan Provincial Government Scholarship for Foreign Students</strong><br>
-                    Southwest Petroleum University | 2020-2021
-                </div>
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="container">
+                <section id="about">
+                    <h2>About Me</h2>
+                    <div class="about-content">
+                        <p>
+                            I am a postdoctoral researcher at LIRMM (Montpellier Laboratory of Informatics, Robotics, and Microelectronics), 
+                            specializing in deep learning applications for environmental monitoring. My research focuses on developing multimodal 
+                            AI approaches that combine vision, audio, and sensor fusion to address real-world challenges in biodiversity and sustainability.
+                        </p>
+                        <p>
+                            I completed my Ph.D. at the University of Lille, where I developed intelligent air quality indicators using machine learning, 
+                            with a focus on explainable AI and transfer learning. My work has been published in top-ranked international journals, 
+                            and I am passionate about making AI accessible and impactful for environmental and health preservation.
+                        </p>
+                    </div>
+                </section>
+
+                <section id="experience">
+                    <h2>Research & Professional Experience</h2>
+                    <div class="experience-grid">
+                        <div class="experience-card">
+                            <h3>LIRMM, Montpellier</h3>
+                            <div class="position">Postdoctoral Researcher</div>
+                            <div class="date">October 2025 - Present | Montpellier, France</div>
+                            <ul>
+                                <li>Postdoc on the SuperBeeLive project, focusing on deep learning for honeybee colony monitoring</li>
+                                <li>Developing multimodal AI approaches (vision, audio, sensor fusion) to quantify beehive health</li>
+                                <li>Research on unsupervised learning and recurrent neural models to predict colony vitality under environmental stressors</li>
+                                <li>Contributing to biodiversity and sustainability research through interdisciplinary collaboration</li>
+                            </ul>
+                        </div>
+
+                        <div class="experience-card">
+                            <h3>University of Lille</h3>
+                            <div class="position">Doctoral Researcher</div>
+                            <div class="date">October 2022 - September 2025 | Lille, France</div>
+                            <ul>
+                                <li>Conducted research on machine learning models for intelligent air quality indicators</li>
+                                <li>Focused on explainable AI, transfer learning, and toxicity threshold prediction</li>
+                                <li>Published multiple journal papers in top-ranked international journals</li>
+                                <li>Presented research in international conferences and contributed to the ANR IARISQ project</li>
+                            </ul>
+                        </div>
+
+                        <div class="experience-card">
+                            <h3>Southwest Petroleum University</h3>
+                            <div class="position">Graduate Research Assistant</div>
+                            <div class="date">September 2020 - June 2022 | Chengdu, China</div>
+                            <ul>
+                                <li>Conducted research on the development and validation of machine learning models for soil liquefaction detection</li>
+                                <li>Applied advanced machine learning and deep learning algorithms for predictive modeling</li>
+                                <li>Collaborated closely with faculty and researchers in the Civil Engineering Department to design novel approaches</li>
+                                <li>Contributed to the development of two peer-reviewed scientific papers and authored two additional publications</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="education">
+                    <h2>Education</h2>
+                    <div class="education-grid">
+                        <div class="education-card">
+                            <h3>University of Lille, France</h3>
+                            <div class="degree">Ph.D. in Machine Learning</div>
+                            <div class="date">October 2022 - September 2025</div>
+                            <div class="details">
+                                <strong>Thesis:</strong> Design and Development of Intelligent Air Quality Indicators for Environmental and Health Preservation Support
+                            </div>
+                        </div>
+
+                        <div class="education-card">
+                            <h3>Southwest Petroleum University, China</h3>
+                            <div class="degree">Master of Science in Computer Science & Technology</div>
+                            <div class="date">October 2019 - June 2022</div>
+                            <div class="details">
+                                <strong>Thesis:</strong> Neural Transfer Learning for Soil Liquefaction Tests<br>
+                                <strong>Overall GPA:</strong> 4.27/5
+                            </div>
+                        </div>
+
+                        <div class="education-card">
+                            <h3>University of Ibn Zohr, Morocco</h3>
+                            <div class="degree">Bachelor of Science in Computer Science & Engineering</div>
+                            <div class="date">September 2018 - June 2019</div>
+                            <div class="details">
+                                <strong>Final-year project:</strong> Development of a Web Application for Managing Barbershop Appointments and Scheduling
+                            </div>
+                        </div>
+
+                        <div class="education-card">
+                            <h3>University of Ibn Zohr - Higher School of Technology, Morocco</h3>
+                            <div class="degree">DUT (University Technology Diploma) in Computer Science & Engineering</div>
+                            <div class="date">September 2016 - June 2018</div>
+                            <div class="details">
+                                <strong>Final-year project:</strong> Design and Development of a 3D Game with Unity 3D
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="teaching">
+                    <h2>Teaching & Supervision Experience</h2>
+                    <div class="experience-grid">
+                        <div class="experience-card">
+                            <h3>École Centrale de Lille</h3>
+                            <div class="position">Instructor - 3rd Year Engineering Program (G3 - OSP Track)</div>
+                            <div class="date">2024-2025</div>
+                            <ul>
+                                <li>Taught Data Science and Machine Learning courses</li>
+                            </ul>
+                        </div>
+
+                        <div class="experience-card">
+                            <h3>École Centrale de Lille</h3>
+                            <div class="position">Instructor - Master in Management of AI in Health (MIAS M1)</div>
+                            <div class="date">2024-2025</div>
+                            <ul>
+                                <li>Taught Data Science and Machine Learning courses</li>
+                            </ul>
+                        </div>
+
+                        <div class="experience-card">
+                            <h3>École Centrale de Lille</h3>
+                            <div class="position">Instructor - Master in Management of AI in Health (MIAS M1)</div>
+                            <div class="date">2023-2024</div>
+                            <ul>
+                                <li>Taught Data Science (Part 2)</li>
+                                <li>Taught Machine Learning (Part 2)</li>
+                            </ul>
+                        </div>
+
+                        <div class="experience-card">
+                            <h3>École Centrale de Lille</h3>
+                            <div class="position">Instructor - Master in Management of AI in Health (MIAS M2)</div>
+                            <div class="date">2023-2024</div>
+                            <ul>
+                                <li>Taught Machine Learning course</li>
+                            </ul>
+                        </div>
+
+                        <div class="experience-card">
+                            <h3>École Centrale de Lille</h3>
+                            <div class="position">Instructor - International Biomedical Engineering Program (BME M2)</div>
+                            <div class="date">2023-2024</div>
+                            <ul>
+                                <li>Taught Machine Learning course</li>
+                            </ul>
+                        </div>
+
+                        <div class="experience-card">
+                            <h3>Student Supervision</h3>
+                            <div class="position">Master M1 Project Supervisor</div>
+                            <div class="date">2023-2024</div>
+                            <ul>
+                                <li>Supervised project: Machine Learning–Based Decision Support System for Resuming Driving with Visual Field Deficits</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="other">
+                    <h2>Other Experience</h2>
+                    <div class="experience-grid">
+                        <div class="experience-card">
+                            <h3>Freelance Web Developer</h3>
+                            <div class="position">Fiverr Platform</div>
+                            <div class="date">2020-2023</div>
+                            <ul>
+                                <li>Developed and managed multiple web projects simultaneously, ensuring timely delivery and high client satisfaction</li>
+                                <li>Technologies used: PHP, MySQL, WordPress, JavaScript</li>
+                            </ul>
+                        </div>
+
+                        <div class="experience-card">
+                            <h3>Medium Writer</h3>
+                            <div class="position">Technical Content Creator</div>
+                            <div class="date">2020-Present</div>
+                            <ul>
+                                <li>Authored and published articles documenting my learning process and sharing technical insights with a wider audience</li>
+                            </ul>
+                        </div>
+
+                        <div class="experience-card">
+                            <h3>Open Source Contributor</h3>
+                            <div class="position">GitHub</div>
+                            <div class="date">2020-Present</div>
+                            <ul>
+                                <li>Contributed to various open-source projects by enhancing functionalities, fixing bugs, and collaborating with the developer community</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="skills">
+                    <h2>Technical Skills</h2>
+                    <div class="skills-container">
+                        <div class="skill-category">
+                            <h3>Areas of Expertise</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Machine Learning</span>
+                                <span class="skill-tag">Deep Learning</span>
+                                <span class="skill-tag">Time Series Analysis</span>
+                                <span class="skill-tag">Data Visualization</span>
+                                <span class="skill-tag">Data Preparation</span>
+                                <span class="skill-tag">Data Science</span>
+                                <span class="skill-tag">Statistics</span>
+                                <span class="skill-tag">Software Engineering</span>
+                                <span class="skill-tag">Web Development</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>Programming Languages</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">C</span>
+                                <span class="skill-tag">C++</span>
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">PHP</span>
+                                <span class="skill-tag">SQL</span>
+                                <span class="skill-tag">HTML/CSS</span>
+                                <span class="skill-tag">LaTeX</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>Frameworks & Systems</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">MVC</span>
+                                <span class="skill-tag">Django</span>
+                                <span class="skill-tag">Bootstrap</span>
+                                <span class="skill-tag">WordPress</span>
+                                <span class="skill-tag">Vue.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="publications">
+                    <h2>Publications</h2>
+                    
+                    <h3 class="subsection-title">Highlighted Publications</h3>
+                    
+                    <div class="publication-item">
+                        <div class="authors"><strong>Idriss Jairi</strong>, Amelle Rekbi, Sarah Ben-Othman, Slim Hammadi, Ludivine Canivet, Hayfa Zgaya-Biau</div>
+                        <div class="title">Enhancing particulate matter risk assessment with novel machine learning-driven toxicity threshold prediction</div>
+                        <div class="journal">Engineering Applications of Artificial Intelligence, 2025</div>
+                        <a href="https://doi.org/10.1016/j.engappai.2024.109531" target="_blank">https://doi.org/10.1016/j.engappai.2024.109531</a>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="authors"><strong>Idriss Jairi</strong>, Sarah Ben-Othman, Ludivine Canivet, Hayfa Zgaya-Biau</div>
+                        <div class="title">Enhancing air pollution prediction: A neural transfer learning approach across different air pollutants</div>
+                        <div class="journal">Environmental Technology & Innovation, 2024</div>
+                        <a href="https://doi.org/10.1016/j.eti.2024.103793" target="_blank">https://doi.org/10.1016/j.eti.2024.103793</a>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="authors"><strong>Idriss Jairi</strong>, Sarah Ben-Othman, Ludivine Canivet, Hayfa Zgaya-Biau</div>
+                        <div class="title">Explainable approach for air quality classification using a granular computing rule extraction technique</div>
+                        <div class="journal">Engineering Applications of Artificial Intelligence, 2024</div>
+                        <a href="https://doi.org/10.1016/j.engappai.2024.108096" target="_blank">https://doi.org/10.1016/j.engappai.2024.108096</a>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="authors">Yu Fang, <strong>Idriss Jairi</strong>, Nima Pirhadi</div>
+                        <div class="title">Neural transfer learning for soil liquefaction tests</div>
+                        <div class="journal">Computers & Geosciences, 2023</div>
+                        <a href="https://doi.org/10.1016/j.cageo.2022.105282" target="_blank">https://doi.org/10.1016/j.cageo.2022.105282</a>
+                    </div>
+
+                    <h3 class="subsection-title">Conferences & Workshops</h3>
+                    
+                    <div class="conference-item">
+                        <div class="authors">Natalia Grabar, <strong>Idriss Jairi</strong>, Hayfa Zgaya-Biau</div>
+                        <div class="title">Efficient Semantic Similarity Computing with Optimized BERT Models</div>
+                        <div class="event">Medical Informatics Europe, Glasgow, Scotland - May 2025</div>
+                        <a href="https://doi.org/10.3233/SHTI250480" target="_blank">https://doi.org/10.3233/SHTI250480</a>
+                    </div>
+
+                    <div class="conference-item">
+                        <div class="authors"><strong>Idriss Jairi</strong></div>
+                        <div class="title">Design and Development of Intelligent Performance Indicators for Environmental Preservation Support Based on the "Water–Air–Soil" Strategy</div>
+                        <div class="event">Doctoral Consortium at ECAI – European Conference on Artificial Intelligence, Santiago de Compostela, Spain - October 2024</div>
+                        <a href="https://anaellewilczynski.pages.centralesupelec.fr/ecai-2024-dc/accepted.html" target="_blank">View Conference</a>
+                    </div>
+                </section>
+
+                <section id="reviewing">
+                    <h2>Reviewing Activities & Research Projects</h2>
+                    <div class="reviewing-content">
+                        <h3>Peer Review</h3>
+                        <p>Serving as a peer reviewer for the following journals:</p>
+                        <ul>
+                            <li><em>Engineering Applications of Artificial Intelligence (EAAI)</em></li>
+                            <li><em>Modeling Earth Systems and Environment</em></li>
+                            <li><em>Earth Science Informatics</em></li>
+                            <li><em>Environmental Monitoring and Assessment</em></li>
+                            <li><em>Scientific Reports</em></li>
+                        </ul>
+
+                        <h3 style="margin-top: 25px;">Research Project Participation</h3>
+                        <p>Participated in the setup of the ANR (Agence Nationale de la Recherche) research project <strong>IARISQ</strong> ("Conception et développement d'un système d'aide à la décision à base d'Intelligence Artificielle pour la prédiction de la qualité de l'air et la détermination des risques sanitaires des particules"), primarily based on my Ph.D. work, in collaboration with <strong>CRIStAL</strong>, <strong>LGCgE</strong>, and <strong>ATMO</strong>.</p>
+                    </div>
+                </section>
+
+                <section id="awards">
+                    <h2>Grants & Awards</h2>
+                    <div class="award-item">
+                        🏆 <strong>Sichuan Provincial Government Scholarship for Foreign Students</strong><br>
+                        Southwest Petroleum University | 2021-2022
+                    </div>
+                    <div class="award-item">
+                        🏆 <strong>Sichuan Provincial Government Scholarship for Foreign Students</strong><br>
+                        Southwest Petroleum University | 2020-2021
+                    </div>
+                </section>
+
+                <footer>
+                    <p>&copy; 2025 Idriss JAIRI. All rights reserved.</p>
+                </footer>
             </div>
-        </div>
-    </section>
-
-    <section id="contact" class="cta-section">
-        <div class="container">
-            <h2>Connect With Me</h2>
-            <p style="font-size: 1.1em; margin-top: 15px;">I'm always interested in research collaborations and discussing AI applications</p>
-            <div class="social-links">
-                <a href="mailto:idriss.jairi@umontpellier.fr">Email</a>
-                <a href="https://github.com/jairiidriss" target="_blank">GitHub</a>
-                <a href="https://www.linkedin.com/in/jairiidriss/" target="_blank">LinkedIn</a>
-                <a href="https://medium.com/@jairiidriss" target="_blank">Medium</a>
-                <a href="https://www.fiverr.com/jairiidriss" target="_blank">Fiverr</a>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Idriss JAIRI. All rights reserved.</p>
-    </footer>
+        </main>
+    </div>
 
     <script>
-        function toggleMenu() {
-            const menu = document.getElementById('navMenu');
-            menu.classList.toggle('active');
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('active');
         }
 
-        // Close menu when clicking on a link
-        document.querySelectorAll('nav ul li a').forEach(link => {
-            link.addEventListener('click', () => {
-                document.getElementById('navMenu').classList.remove('active');
+        // Close sidebar when clicking on a link on mobile
+        if (window.innerWidth <= 1024) {
+            document.querySelectorAll('.sidebar-nav a, .social-links-sidebar a').forEach(link => {
+                link.addEventListener('click', () => {
+                    document.getElementById('sidebar').classList.remove('active');
+                });
             });
-        });
+        }
     </script>
 </body>
 </html>
